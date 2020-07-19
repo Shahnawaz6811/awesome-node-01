@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "pm2 start app --watch",
-    "stop": "pm2 stop app"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
