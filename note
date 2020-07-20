@@ -1,0 +1,6 @@
+Formurlencoded vs application/json
+The first case is telling the web server that you are posting JSON data as in:
+{ Name : 'John Smith', Age: 23}
+
+The second option is telling the web server that you will be encoding the parameters in the URL as in:
+Name=John+Smith&Age=23
